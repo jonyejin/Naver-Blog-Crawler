@@ -62,10 +62,6 @@ directoryNo={}&activeDirectorySeq={}&currentPage={}
 
 (ex) IT,컴퓨터 1페이지: https://section.blog.naver.com/ThemePost.naver?directoryNo=4&activeDirectorySeq=30&currentPage=1
 
-
-### Crawl Blog Body
-수집한 Blog포스팅의 PATH가 숫자로만 이루어진 포스팅인 경우만, 1번 포스팅부터 수집된 PATH까지 반복문을 통해서 크롤링 합니다. **현재는 PATH가 문자를 포함한 블로그는 수집하지 않고 있습니다.** HTML Body를 Database에 저장합니다.
-
 ### Dependencies
 * beautifulsoup4
 * urllib3
